@@ -1,0 +1,278 @@
+@font-face {
+  font-family: 'GeneralSans';
+  src: url('./assets/fonts/GeneralSans-Regular.otf');
+}
+
+@font-face {
+  font-family: 'GeneralSans-Medium';
+  src: url('./assets/fonts/GeneralSans-Medium.otf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'GeneralSans'
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  width: 100%;
+}
+
+.hero {
+  color: white;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 2vw 3vw;
+  color: white;
+}
+
+.nav a {
+  text-decoration: none;
+  font-family: 'GeneralSans-Medium';
+  font-size: 18px;
+  color: white;
+}
+
+.heading {
+  margin-top: 90px;
+}
+
+.heading h1 {
+  line-height: 1;
+  font-family: 'GeneralSans';
+  font-weight: 900;
+  font-size: 10vw;
+  color: rgb(163, 163, 163);
+  margin-left: 43px;
+}
+
+.heading .second-h1 {
+  margin-left: 220px;
+}
+
+.block-text {
+  width: fit-content;
+}
+
+.block-text h5 {
+  text-align: right;
+}
+
+.sub-heading {
+  margin-top: 60px;
+  padding: 2vw 3vw;
+}
+
+.sub-heading h5 {
+  margin-top: .5vw;
+  text-align: right;
+  font-size: 0.8vw;
+  font-family: 'GeneralSans-Medium';
+}
+
+.hero-footer {
+  width: 100%;
+  position: absolute;
+  bottom: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3vw;
+}
+
+.hero-footer a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-family: 'GeneralSans-Medium';
+  font-size: 0.8vw;
+  text-transform: uppercase;
+}
+
+.hero-footer .arrow {
+  margin-left: 4px;
+  margin-top: 4px;
+}
+
+.hero-footer .iconset {
+  display: flex;
+  gap: 5px;
+}
+
+.hero-footer .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  color: black;
+  border-radius: 50%;
+  background-color: rgb(163, 163, 163);
+}
+
+.second {
+  padding-top: 120px;
+  padding-left: 50px;
+  padding-right: 180px;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  background-color: black;
+}
+
+.elem {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid rgb(163, 163, 163);
+  padding: 3vw 1vw;
+}
+
+.elem h1 {
+  text-transform: uppercase;
+  font-size: 7vw;
+  color: rgb(163, 163, 163);
+}
+
+.elem h5 {
+  color: white;
+  font-size: 0.8vw;
+}
+
+.elemlast {
+  border-bottom: 1px solid rgb(163, 163, 163);
+}
+
+.elem img {
+  display: none;
+  height: 140%;
+  z-index: 999;
+  position: absolute;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 10vw 10vw;
+  padding-left: 50vw;
+  gap: 80px;
+  width: 100%;
+  background-color: black;
+}
+
+.about img {
+  width: 230px;
+}
+
+.text-about {
+  width: 25rem;
+}
+
+.text-about h5 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: rgb(163, 163, 163);
+}
+
+.text-about p {
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.text-about a {
+  padding: 10px 22px;
+  border-radius: 100px;
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+}
+
+.subscribe {
+  width: 100%;
+  padding: 2vw 3vw;
+  padding-bottom: 5vw;
+  background-color: black;
+}
+
+.subscribe h5 {
+  text-transform: uppercase;
+  color: rgb(163, 163, 163);
+}
+
+.subscribe .subs-link {
+  display: flex;
+}
+
+.subscribe a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-family: 'GeneralSans-Medium';
+  text-transform: uppercase;
+}
+
+.subscribe .arrow {
+  margin-left: 3px;
+  margin-top: 4px;
+}
+
+.footer {
+  width: 100%;
+  background-color: black;
+  padding: 2vw 3vw;
+  padding-bottom: 1vw;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: white;
+}
+
+.footer-left {
+  display: flex;
+  gap: 30px;
+
+}
+
+.footer-right {
+  display: flex;
+  gap: 60px;
+}
+
+.footer h5 {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: 'GeneralSans-Medium';
+}
+
+.footer a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-family: 'GeneralSans-Medium';
+  font-size: 14px;
+  font-weight: 500;
+}
